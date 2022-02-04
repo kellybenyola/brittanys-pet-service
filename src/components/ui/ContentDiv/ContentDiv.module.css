@@ -1,0 +1,79 @@
+.div {
+  color: inherit;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  flex-flow: row wrap;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  gap: 25px 100px;
+  padding: 5% 2% 2%;
+}
+
+.div div a{
+  font-size: 2rem;
+  padding: 5px;
+  cursor: pointer;
+}
+.div section {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: justify;
+  max-width: 400px;
+  gap: 20px;
+  margin: auto;
+  align-content: center;
+}
+
+.div h1 {
+  font-size: 3rem;
+  font-family: "roboto";
+  font-weight: bold;
+  text-align: left;
+}
+
+.div span {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.div a{
+  color: inherit;
+}
+
+
+.div img {
+  width: 300px;
+}
+
+.sectionImg2 {
+  width: 400px;
+}
+
+.position {
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 980px) {
+  .div h1 {
+    font-size: 2.8rem;
+  }
+  .div span{
+    font-size: 1.2rem;
+  }
+}
+
+
+@media screen and (max-width: 725px) {
+  .div img {
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .div h1 {
+    font-size: 2.5rem;
+  }
+}

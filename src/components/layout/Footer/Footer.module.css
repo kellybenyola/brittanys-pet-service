@@ -1,0 +1,105 @@
+.footer {
+  background: #fffffc;
+  color: #bdb2ff;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 1.2rem;
+  border-top: white 5px solid;
+}
+
+.column {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-evenly;
+  gap: 25px 50px;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.section {
+    max-width: 300px;
+  display: flex;
+  flex-flow: column wrap;
+
+}
+
+.vertical {
+  display: flex;
+  flex-flow: nowrap column;
+  gap: 15px;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  padding-top: 5px;
+}
+
+.title {
+  font-family: "pacifico";
+  font-weight: lighter;
+  font-size: 1.9rem;
+}
+
+.title2 {
+  font-size: 1.5rem;
+}
+.footerLinks {
+  font-size: 1rem;
+}
+
+.centered {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 3%;
+}
+
+.footer a {
+  animation: a-fadeout 0.25s ease-in forwards;
+}
+.footer a:hover {
+    animation: a-fade 0.25s ease-in forwards;
+}
+.year {
+  color: #bdb2ff;
+}
+
+
+@keyframes a-fadeout {
+    from {
+        color: #795ff5;
+        text-decoration: underline;
+    }
+    to {
+      color: #bdb2ff;
+      text-decoration: none;
+    }
+  }
+  
+  @keyframes a-fade {
+    from {
+        color: #bdb2ff;
+        text-decoration: none;
+    }
+    to {
+      color: #795ff5;
+      text-decoration: underline;
+    }
+  }
+
+@media screen and (max-width: 980px) {
+  .column {
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+  .section{
+      width: 300px;
+
+  }
+  .socials {
+    justify-content: center;
+  }
+}

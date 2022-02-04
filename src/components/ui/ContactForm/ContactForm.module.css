@@ -1,0 +1,125 @@
+.contactForm {
+  background: #fffffc;
+  color: #6b54de;
+  border-radius: 20px;
+  height: auto;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 5%;
+  box-shadow: -12px 12px 2px 1px #6b54de;
+}
+.contactForm label,
+.contactForm button {
+  font-size: 1.5rem;
+}
+
+.contactForm h1 {
+  font-size: 3rem;
+  font-family: "Pacifico";
+  letter-spacing: 2.5px;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 1.3rem;
+  gap: 5px;
+}
+.line div {
+  display: flex;
+  gap: 15px;
+}
+.nameLabel {
+  width: 150px;
+}
+
+.formInputs input,
+.formInputs textarea,
+.contactForm button {
+  border-radius: 10px;
+  border: 1px #6b54de solid;
+}
+.nameInputs {
+  border-radius: 10px;
+  border: 1px #6b54de solid;
+}
+.contactForm input,
+.contactForm button {
+  height: 30px;
+}
+.contactForm input{
+  color: #6b54de;
+}
+.contactForm textarea {
+  height: 175px;
+  width: auto;
+  color: #6b54de;
+}
+.contactForm input:focus, .contactForm textarea:focus{
+  outline: none;
+  color: #6b54de;
+}
+
+
+.contactForm button {
+  cursor: pointer;
+  margin: auto;
+  font-size: 1.5rem;
+  height: 40px;
+  animation: btn-fadeout 0.25s ease-in forwards;
+}
+
+.contactForm button:hover {
+  animation: btn-fadein 0.25s ease-in forwards;
+}
+
+.error {
+  color: #ffadad;
+  font-style: italic;
+}
+.error input,
+.error textarea {
+  border: solid 1px #ffadad;
+}
+.nameError {
+  border: solid 1px #ffadad;
+}
+
+
+@media screen and (max-width: 650px) {
+  .contactForm {
+    width: 400px;
+  }
+  .contactForm textarea {
+    height: 150px;
+  }
+}
+
+
+@keyframes btn-fadein {
+  from {
+    border: solid 1px #6b54de;
+    background: none;
+    color: #6b54de;
+  }
+  to {
+    background: #6b54de;
+    color: #fffffc;
+  }
+}
+@keyframes btn-fadeout {
+  from {
+    background: #6b54de;
+    color: #fffffc;
+  }
+  to {
+    border: solid 1px #6b54de;
+    background: none;
+    color: #6b54de;
+  }
+}

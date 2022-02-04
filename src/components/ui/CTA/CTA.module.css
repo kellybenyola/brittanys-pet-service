@@ -1,0 +1,66 @@
+/* background-image: linear-gradient(to bottom right, #caffbf, #a0c4ff);
+color: #6b54de; */
+
+
+.callDiv{
+    background: #6b54de;
+    color:  #a0c4ff;
+    display: flex;  
+    flex-flow: row wrap;
+    gap: 50px;
+    border: solid 1px #a0c4ff;
+    width: 100%;
+    padding: 7% 0;
+    margin: 5% 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.callDiv a{
+    text-decoration: none;
+    color:inherit;
+}
+.callDiv span{
+    font-size: 3rem;
+    letter-spacing: 1.5px;    
+    font-family: 'pacifico', Arial, Helvetica, sans-serif;
+    
+}
+
+.callDiv button{
+    font-size: 3rem;
+    border-radius: 5px;
+    padding: 10px;
+    animation: btn-fadeout 0.25s ease-in forwards;
+}
+.callDiv button:hover{
+    animation: shake 0.25s infinite;
+    animation-timing-function: linear;  
+    color:  #a0c4ff;
+    border: solid 1px #a0c4ff;
+    background: none;
+}
+
+
+@keyframes btn-fadeout {
+    from {
+        color: #6b54de;
+        border: solid 1px #a0c4ff;
+        background: none;
+    }
+    to {
+        color: #6b54de;
+        border: 1px solid #a0c4ff;
+        background: #a0c4ff;
+
+    }
+  }
+
+  @keyframes shake {
+    0% { transform: rotate(0.5deg); }
+    50% { transform: rotate(-0.5deg); }
+    100% { transform: rotate(0.5deg); }
+
+  }
+
+/* linear-gradient(to bottom right, #fdffb6, #caffbf); */

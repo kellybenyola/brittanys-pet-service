@@ -1,0 +1,57 @@
+.emailForm div {
+  display: flex;
+  border: solid 1px #bdb2ff;
+  justify-content: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  padding: 0 2%;
+}
+.emailForm input,
+.emailForm button {
+  cursor: pointer;
+  border: none;
+  margin: auto;
+  font-size: 1.1rem;
+  height: 30px;
+  background: none;
+  animation: a-fadeout 0.25s ease-in forwards;
+}
+.emailForm button {
+  font-size: 2rem;
+}
+.emailForm input:focus {
+  outline: none;
+}
+
+.emailForm input::placeholder {
+  border: none;
+  color: #bdb2ff;
+}
+
+.emailForm button:hover {
+  animation: a-fade 0.25s ease-in forwards;
+}
+
+
+@keyframes a-fadeout {
+  from {
+      color: #795ff5;
+      text-decoration: underline;
+  }
+  to {
+    color: #bdb2ff;
+    text-decoration: none;
+  }
+}
+
+@keyframes a-fade {
+  from {
+      color: #bdb2ff;
+      text-decoration: none;
+  }
+  to {
+    color: #795ff5;
+    text-decoration: underline;
+  }
+}

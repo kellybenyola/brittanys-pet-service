@@ -1,0 +1,29 @@
+.card {
+  border: 2px solid#8a6560;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+
+}
+
+.cardIcon {
+  width: 50px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+}
+
+.cardContent {
+  padding: 0 5% 0;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+

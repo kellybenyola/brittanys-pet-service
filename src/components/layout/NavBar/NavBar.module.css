@@ -1,0 +1,125 @@
+.navBar {
+  background: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #503ea8;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 3%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.logo {
+  width: 100px;
+}
+.navBar a {
+  padding: 0 5px;
+  animation: a-fadeout 0.25s ease-in forwards;
+}
+.navBar a:hover {
+  animation: a-fade 0.25s ease-in forwards;
+}
+.navBar button {
+  padding: 0 5px;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+}
+
+.navBar a.active {
+  color: #795ff5;
+  font-weight: 500;
+}
+
+.shadow {
+  animation: fade 0.25s ease-in forwards;
+}
+.mobileMenu {
+  display: none;
+}
+
+@keyframes fade {
+  from {
+    box-shadow: 0;
+    background: none;
+  }
+  to {
+    background: white;
+    box-shadow: 0 1px 5px 0.5px lightgrey;
+  }
+}
+
+@keyframes a-fadeout {
+  from {
+  }
+  to {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+@keyframes a-fade {
+  from {
+  }
+  to {
+    color: #795ff5;
+    text-decoration: underline;
+  }
+}
+
+@keyframes swipe {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 33%;
+    opacity: 1;
+  }
+}
+@keyframes swipeout {
+  from {
+    width: 33%;
+    opacity: 1;
+  }
+  to {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 648px) {
+  .mobileMenu {
+    display: block;
+    cursor: pointer
+  }
+  .navOptions {
+    background: #fffffc;
+    color: #503ea8;
+    font-size: 1.5rem;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 800px;
+    position: absolute;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 20px;
+    padding: 15% 2%;
+    animation: swipeout 0.5s ease-in forwards;
+  }
+  .navOptions.active {
+    background: #fffffc;
+    opacity: 1;
+    align-content: center;
+    padding-left: 0px;
+    animation: swipe 0.5s ease-in forwards;
+    width: 33%;
+    padding: 15% 2%;
+  }
+}
