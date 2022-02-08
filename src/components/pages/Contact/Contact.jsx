@@ -8,7 +8,7 @@ import {contactImg} from "../../../content/ContactContent";
 import CTA from "../../ui/CTA/CTA";
 
 
-const Contact = (props) => {
+const Contact = () => {
   const {img1, alt} = contactImg;
   return (
     <Body>
@@ -33,7 +33,6 @@ const Contact = (props) => {
                 <FaEnvelope />
               </a>
           </div>
-         
          <section>
         <img src={img1} alt={alt}/>
       </section>

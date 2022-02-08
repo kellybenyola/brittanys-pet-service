@@ -1,14 +1,9 @@
-/* background-image: linear-gradient(to bottom right, #caffbf, #a0c4ff);
-color: #6b54de; */
-
-
 .callDiv{
     background: #6b54de;
     color:  #a0c4ff;
     display: flex;  
     flex-flow: row wrap;
     gap: 50px;
-    border: solid 1px #a0c4ff;
     width: 100%;
     padding: 7% 0;
     margin: 5% 0 0;

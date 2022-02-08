@@ -4,7 +4,6 @@
     display: flex;  
     flex-flow: column wrap;
     gap: 50px;
-    border: solid 1px #789971;
     width: 100%;
     padding: 7% 0;
     margin: 5% 0;

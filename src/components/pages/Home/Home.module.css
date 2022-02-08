@@ -25,7 +25,7 @@
   border-radius: 5px;
   color: #503ea8;
   width: 350px;
-  transform: rotate(-5deg); /* Equal to rotateZ(45deg) */
+  transform: rotate(-5deg);
   padding: 0 0 2%;
   filter: drop-shadow(5px 5px 3px #855f39);
   z-index: 3;
@@ -256,6 +256,7 @@
     font-size: 4.5rem;
     width: 500px;
     padding: 1% 0;
+    margin-left: -3%;
   }
 }
 

@@ -3,20 +3,21 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  width: 275px;
-  height: 350px;
+  width: 300px;
+  height: 475px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   color: inherit;
-
+  padding: 5% 5px 0;
 }
 
 .cardIcon {
-  width: 50px;
+  width: 65px;
 }
 
 .cardTitle {
   font-size: 1.5rem;
+  padding: 5px;
 }
 
 .cardContent {
@@ -25,5 +26,6 @@
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 1px;
+
 }
 

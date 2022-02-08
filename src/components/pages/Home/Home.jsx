@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import Dogs from "../../../assets/images/dogs.png";
 function Home(props) {
+
+  const topLoad = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className={props.bgColor}>
       <section className={styles.homeTop}>
@@ -13,7 +18,7 @@ function Home(props) {
             <a href="https://www.timetopet.com/portal/brittanyspetservice/create-account">
               <button className={styles.button1}>Book Now</button>
             </a>
-            <Link to="/services">
+            <Link onClick={topLoad} to="/services">
               <button className={styles.button2}>Learn More</button>
             </Link>
           </div>

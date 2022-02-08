@@ -20,78 +20,75 @@ function Services() {
     Aos.init({duration: 2000});
   }, []);
   return (
-    <Fragment>
-      <Body className=" text-darkGreen">
-        <SectionTitle title="Services @ Brittany's" />
-        <ContentDiv>
-        <section>
-              <img
-                src={img1}
-                alt={alt}
-              />
-            </section>
-            <section>
-              <h1>Dog Walking</h1>
-              <span>Stop by, pick up, drop off, here to make sure your dog gets in his steps.</span>
-              <span> $500 | $25/hr | $100/day </span>
-            </section>
-        </ContentDiv>
+    <Body>
+    <SectionTitle title="Services @ Brittany's" />
+      <ContentDiv>
+      <section>
+            <img
+              src={img1}
+              alt={alt}
+            />
+          </section>
+          <section>
+            <h1>Dog Walking</h1>
+            <span>Someone needs to make sure your dog gets in their steps in throughout the day. I offer a variety of time slots to get those little legs moving.</span>
+            <span>25-60 minute dog walks $30-$50 </span>
+          </section>
+      </ContentDiv>
+      <ContentDiv>
+      <section data-aos='fade-up'>
+            <img
+              src={img3}
+              alt={alt}
+            />
+          </section>
+          <section data-aos='fade-up'>
+            <h1>Pet Sitting</h1>
+            <span>Some of our pets are just homebodies, and that's okay! I'm here to hang out and make sure your pet is safe in their own environment while you're out of town.</span>
+            <span>Dog Sitting Overnights $90</span>
+            <span>Cat Sitting Overnights $50</span>
+          </section>
+      </ContentDiv>
+      <ContentDiv>
+      <section data-aos='fade-up'>
+            <img
+              src={img2}
+              alt={alt}
+            />
+          </section>
+          <section data-aos='fade-up'>
+            <h1>Pet Wedding Attendant</h1>
+            <span>Your pet is apart of the family too, and there's no reason they shouldn't 
+               be included in your wedding. I'm there from start to finish to make sure your furbaby
+               is a part of your special day without getting into trouble (or the cake)!</span>
+            <span>Starting at $200</span>
+          </section>
+      </ContentDiv>
+      <ContentDiv>
+      <section data-aos='fade-up'>
+            <img
+              src={img4}
+              alt={alt}
+            />
+          </section>
+          <section data-aos='fade-up'>
+            <h1>Other Services</h1>
+            <span>Consultations - FREE</span>
+            <span>Drop By's - $30</span>
+            <span>Adventures - $60</span>
+            <span>I offer a variety of specialized services. If you don't see a description that 
+             accurately describes your situation email me! I work with all types of animals, and 
+             I'd love to hear more about how I can help you and your pet!</span>
+            <Link onClick={topLoad} to='/contact'>
+              <span>Send a Message</span>
+            </Link>
+           </section>
+      </ContentDiv>
+      <CallDiv />
+      <SectionTitle title="Customer Barks" />
+      <Slider />
+    </Body>
 
-        <ContentDiv>
-        <section data-aos='fade-right'>
-              <img
-                src={img3}
-                alt={alt}
-              />
-            </section>
-            <section data-aos='fade-right'>
-              <h1>Pet Sitting</h1>
-              <span>Some of our pets are just homebodies, and that's okay! I'm here
-              to hang out and make sure your pet is safe in their environment.</span>
-              <span> $500 | $25/hr | $100/day </span>
-            </section>
-        </ContentDiv>
-
-        <ContentDiv>
-        <section data-aos='fade-left'>
-              <img
-                src={img2}
-                alt={alt}
-              />
-            </section>
-            <section data-aos='fade-left'>
-              <h1>Wedding Guest</h1>
-              <span>Your pet is apart of the family too, and there's no reason they shouldn't 
-              be included in your wedding. I'm there from start to finish to make sure your furbaby
-              is a part of your special day without getting into to drop (or the cake)!</span>
-              <span> $500 | $25/hr | $100/day </span>
-            </section>
-        </ContentDiv>
-
-        <ContentDiv>
-        <section data-aos='fade-up'>
-        <h1>The Sky is the Limit!</h1>
-          <span>
-            I offer a variety of specialized services, so if you don't see a description that 
-            accurately describes your situation email me! I work with all types of animals, and 
-            I'd love to hear more about how I can help you and your pet! 
-          </span>
-          <Link onClick={topLoad} to='/contact'>
-            <span>Send a Message</span>
-          </Link>
-        </section>
-        <section data-aos='fade-up'>
-              <img
-                src={img4}
-                alt={alt}
-              />
-            </section>
-        </ContentDiv>
-        <CallDiv />
-        <SectionTitle title="Customer Barks" />
-        <Slider />
-      </Body>
-    </Fragment>
   );
 }
 

@@ -65,10 +65,14 @@
 
 @keyframes a-fade {
   from {
+    color: #503ea8;
+    text-decoration: none;
+    cursor: pointer;
   }
   to {
     color: #795ff5;
     text-decoration: underline;
+    cursor: pointer;
   }
 }
 
@@ -98,6 +102,7 @@
     display: block;
     cursor: pointer
   }
+  
   .navOptions {
     background: #fffffc;
     color: #503ea8;

@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 0 5%;
+  /* padding: 0 0 5%; */
   box-shadow: -12px 12px 2px 1px #6b54de;
 }
 .contactForm label,
@@ -63,6 +63,7 @@
 .contactForm input:focus, .contactForm textarea:focus{
   outline: none;
   color: #6b54de;
+
 }
 
 
@@ -93,10 +94,11 @@
 
 @media screen and (max-width: 650px) {
   .contactForm {
-    width: 400px;
+    width: 350px;
   }
   .contactForm textarea {
     height: 150px;
+
   }
 }
 

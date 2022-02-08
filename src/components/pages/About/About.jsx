@@ -44,7 +44,7 @@ const About = (props) => {
   }, []);
 
   return (
-    <div className={props.bgColor}>
+    <div>
       <Body>
         <SectionTitle title={title1} />
         <ContentDiv >
@@ -58,9 +58,8 @@ const About = (props) => {
               <h1>{contentTitle1}</h1>
               <span>{p1}</span>
               <div>
-              <Link onClick={topLoad} to="/services">
-                <span>Learn more about my services</span>
-              </Link>
+                <a href="https://www.timetopet.com/portal/brittanyspetservice/create-account">
+                  <span>Book your first session now!</span></a>
               </div>
             </section>
         </ContentDiv>
@@ -69,8 +68,9 @@ const About = (props) => {
               <h1>{contentTitle2}</h1>
               <span>{p2}</span>
               <div>
-                <a href="https://www.timetopet.com/portal/brittanyspetservice/create-account">
-                  <span>Book your first session now!</span></a>
+              <Link onClick={topLoad} to="/services">
+                <span>Learn more about my services</span>
+              </Link>
               </div>
             </section>
             <section data-aos='fade-up'>
