@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, {useEffect } from "react";
 import Body from "../../layout/Body/Body";
 import SectionTitle from "../../ui/SectionTitle/SectionTitle";
 import ContentDiv from "../../ui/ContentDiv/ContentDiv";
