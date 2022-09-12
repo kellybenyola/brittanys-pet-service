@@ -26,7 +26,7 @@ export const cardSectionContent = {
   cardP3:
     "I've completed biology, psychology, animal nutrition, dog training, as well as other courses at Unity College to learn how animals mentally communicate with other animals and humans alike. Continuing my education is an important highlight to provide the safest and mosst effective techniques for pet care.",
   cardP2:
-    "With 10 years of animal care experiecne under my belt, I can promise that your best bud is taken care of while your away. Nothing is more important than the security of knowing your pet is as happy and safe, and for the last decade my clients have trusted me with that responsibility.",
+    "With 10 years of animal care experience under my belt, I can promise that your best bud is taken care of while your away. Nothing is more important than the security of knowing your pet is as happy and safe. For the last decade my clients have trusted me with that responsibility.",
   cardP1:
     "I always make sure the environment I'm in with any pet is safe, but having CPR & First Aid training speifically for animals is an extra layer of security to ensure I can act quickly if an accident does happen.",
 };

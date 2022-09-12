@@ -5,18 +5,18 @@ const SliderItem = (props) => {
 
   return (
     <div className={slider}>
-      <h2>{props.name}</h2>
+      {/* <h2>{props.name}</h2> */}
       <div className={styles.img}>
         <img src={props.img} alt="" />
       </div>
-      <span className={styles.rating}>
-        <FaPaw />
-        <FaPaw />
-        <FaPaw />
-        <FaPaw />
-        <FaPaw />
-      </span>
-      <p>{props.review}</p>
+      <div className={styles.rating}>
+        <span><FaPaw /></span>
+        <span><FaPaw /></span>
+        <span><FaPaw /></span>
+        <span><FaPaw /></span>
+        <span><FaPaw /></span>
+      </div>
+      <p>"{props.review}"</p>
     </div>
   );
 };

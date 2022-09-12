@@ -70,6 +70,7 @@
 .contactForm button {
   cursor: pointer;
   margin: auto;
+  margin-bottom: 25px;
   font-size: 1.5rem;
   height: 40px;
   animation: btn-fadeout 0.25s ease-in forwards;

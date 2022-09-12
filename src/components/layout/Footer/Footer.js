@@ -79,7 +79,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.centered}>
-        <p className={styles.year}>© {year} Brittany's Pet Services, LLC.</p>
+        <p className={styles.year}>© {year} Brittany's Pet Service, LLC.</p>
       </div>
     </footer>
   );

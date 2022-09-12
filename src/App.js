@@ -8,6 +8,7 @@ import About from "./components/pages/About/About";
 import Contact from "./components/pages/Contact/Contact";
 import NavBar from "./components/layout/NavBar/NavBar";
 import Footer from "./components/layout/Footer/Footer";
+import Error from "./components/pages/Error/Error";
 
 function App() {
   const location = useLocation();
@@ -39,7 +40,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/*" element={<Home />} />
+        <Route path="/*" element={<Error />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />

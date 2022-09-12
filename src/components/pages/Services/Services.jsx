@@ -31,7 +31,7 @@ function Services() {
           </section>
           <section>
             <h1>Dog Walking</h1>
-            <span>Someone needs to make sure your dog gets in their steps in throughout the day. I offer a variety of time slots to get those little legs moving.</span>
+            <span>Someone needs to make sure your dog gets in their steps throughout the day. I offer a variety of time slots to get those little legs moving.</span>
             <span>25-60 minute dog walks $30-$50 </span>
           </section>
       </ContentDiv>
@@ -44,7 +44,11 @@ function Services() {
           </section>
           <section data-aos='fade-up'>
             <h1>Pet Sitting</h1>
-            <span>Some of our pets are just homebodies, and that's okay! I'm here to hang out and make sure your pet is safe in their own environment while you're out of town.</span>
+            <span>Some of our pets are homebodies, and that's okay! 
+            I provide 1:1 pet care from the comfort of your home. In-house care is less stressful 
+            compared to daycare services outside the home with a 1:15 human-to-animal 
+            ratio. 
+            I'm here to hang out with your pet in a safe and comfortable environment while you're away. </span>
             <span>Dog Sitting Overnights $90</span>
             <span>Cat Sitting Overnights $50</span>
           </section>

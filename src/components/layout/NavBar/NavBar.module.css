@@ -56,10 +56,14 @@
 
 @keyframes a-fadeout {
   from {
+    color: #795ff5;
+    text-decoration: underline;
+    cursor: pointer;
   }
   to {
-    color: inherit;
+    color: #503ea8;
     text-decoration: none;
+    cursor: pointer;
   }
 }
 

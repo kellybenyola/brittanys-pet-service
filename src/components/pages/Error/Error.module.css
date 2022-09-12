@@ -1,0 +1,14 @@
+.errorPg{
+    text-align: center;
+    color: white;
+    padding: 5% 1% 10%;
+}
+
+.errorPg h1{
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+.errorPg h3{
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}

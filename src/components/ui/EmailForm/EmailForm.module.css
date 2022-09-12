@@ -5,7 +5,7 @@
   border-radius: 10px;
   height: 50px;
   width: 100%;
-  padding: 0 2%;
+  padding: 0;
 }
 .emailForm input,
 .emailForm button {

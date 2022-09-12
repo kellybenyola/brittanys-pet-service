@@ -1,8 +1,7 @@
 .sliderContainer {
   display: flex;
   align-items: center;
-  padding: 2% 0 5%;
-  gap: 5px 0;
+  padding: 2%;
 }
 .sliderContainer button {
   color: #789971;
@@ -25,12 +24,17 @@
 }
 .rating {
   font-size: 1.8rem;
-  padding: 15% 0;
+  padding-top: 5%;
+}
+.rating span{
+  margin: 0 5px;
 }
 
 .slider p {
   font-size: 1.5rem;
-  line-height: 0.5;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 500px;
 }
 .slider img {
   width: 225px;
@@ -43,7 +47,7 @@
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  border: #789971 solid 5px;
+  border: #789971 solid 1px;
   overflow: hidden;
 }
 
@@ -65,3 +69,22 @@
   transform: scale(1.08);
 }
 
+@media screen and (max-width: 980px) {
+  
+  .slider img{
+    width: 150px;
+    height: 150px;
+  }
+  .img{
+    width: 150px;
+    height: 150px;
+  }
+  .slider h2 {
+    text-align: center;
+  }
+  .slider p {
+    text-align: justify;
+    padding: 0 5%;
+  }
+
+}
